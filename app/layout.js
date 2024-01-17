@@ -10,7 +10,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={GeistSans}>{children}</body>
+      <CookiesProvider>
+        <body className={GeistSans}>{children}</body>
+      </CookiesProvider>
     </html>
   )
 }
