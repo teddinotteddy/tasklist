@@ -1,4 +1,5 @@
 import { GeistSans } from 'geist/font/sans'
+import { CookiesProvider } from "next-client-cookies/server"
 import './globals.css'
 
 export const metadata = {
