@@ -45,7 +45,7 @@ export default function Home() {
   };
 
   return (
-    <main className="p-4 text-center">
+    <main className="p-4 text-center flex flex-col min-h-screen">
       <h1 className="text-4xl">Tasklist</h1>
       <Separator className="my-4" />
       <div className="flex flex-col items-center justify-center">
